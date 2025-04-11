@@ -81,7 +81,7 @@ public class NIOReadTextFile
                System.out.println(l);
            }
            
-           String fields[] = lines.get(5).split(", ");
+           String fields[] = lines.get(4).split(", ");
            for(String f:fields)
              System.out.println(f);
            
